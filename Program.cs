@@ -80,7 +80,7 @@ class Program
           int numberOfDay = (int)today;
           Console.WriteLine(numberOfDay);
 
-*/
+
 
           //Console input
           //   Console.Write("What is your name?");
@@ -93,6 +93,45 @@ class Program
           Console.WriteLine("Enter a number");
           int number = int.Parse(Console.ReadLine());
           Console.WriteLine(number);
+
+*/
+
+
+          // EXERCISE 1 calculator
+
+          Console.Write("Enter first number: ");
+          double firstNum = double.Parse(Console.ReadLine());
+          Console.Write("Enter second number: ");
+          double secNum = double.Parse(Console.ReadLine());
+          Console.Write("What operation?");
+          string operand = Console.ReadLine();
+          double result;
+
+          switch (operand)
+          {
+               case "+":
+                    result = firstNum + secNum;
+                    Console.WriteLine("Answer: " + result);
+                    break;
+               case "-":
+                    result = firstNum - secNum;
+                    Console.WriteLine("Answer: " + result);
+                    break;
+               case "*":
+                    result = firstNum * secNum;
+                    Console.WriteLine("Answer: " + result);
+                    break;
+               case "/":
+                    result = firstNum / secNum;
+                    Console.WriteLine("Answer: " + result);
+                    break;
+               default:
+                    Console.WriteLine("Invalid input!");
+                    break;
+          }
+
+
+
 
 
 
