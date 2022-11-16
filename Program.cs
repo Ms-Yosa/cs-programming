@@ -18,6 +18,11 @@ class Program
           // operators
           int result = 2 + 3 * 4;
           Console.WriteLine(result);
-          ;
+
+          //ppre&post
+          int a = 5;
+          int c = a++;
+          Console.WriteLine("" + a + " " + c);
+
      }
 }
