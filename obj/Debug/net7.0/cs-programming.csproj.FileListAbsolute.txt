@@ -1,0 +1,15 @@
+C:\Users\Jian\Desktop\cs-programming\bin\Debug\net7.0\cs-programming.exe
+C:\Users\Jian\Desktop\cs-programming\bin\Debug\net7.0\cs-programming.deps.json
+C:\Users\Jian\Desktop\cs-programming\bin\Debug\net7.0\cs-programming.runtimeconfig.json
+C:\Users\Jian\Desktop\cs-programming\bin\Debug\net7.0\cs-programming.dll
+C:\Users\Jian\Desktop\cs-programming\bin\Debug\net7.0\cs-programming.pdb
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.csproj.AssemblyReference.cache
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.AssemblyInfoInputs.cache
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.AssemblyInfo.cs
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.csproj.CoreCompileInputs.cache
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.dll
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\refint\cs-programming.dll
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.pdb
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\cs-programming.genruntimeconfig.cache
+C:\Users\Jian\Desktop\cs-programming\obj\Debug\net7.0\ref\cs-programming.dll
