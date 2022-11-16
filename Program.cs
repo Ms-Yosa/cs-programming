@@ -94,7 +94,7 @@ class Program
           int number = int.Parse(Console.ReadLine());
           Console.WriteLine(number);
 
-*/
+
 
 
           // EXERCISE 1 calculator
@@ -129,6 +129,25 @@ class Program
                     Console.WriteLine("Invalid input!");
                     break;
           }
+
+*/
+
+          // EXERCISE 2 length & width;
+
+          const double pricePerSquareFoot = 25.3;
+
+          Console.WriteLine("Price per sq/ft is: $25.3");
+
+          Console.Write("Enter length: ");
+          double length = double.Parse(Console.ReadLine());
+          Console.Write("Enter width: ");
+          double width = double.Parse(Console.ReadLine());
+          double totalArea = length * width;
+          double totalAmount = totalArea * pricePerSquareFoot;
+
+          Console.WriteLine("You purchased: {0} sq/ft of carpet with a total price of {1}", totalArea, totalAmount);
+
+
 
 
 
