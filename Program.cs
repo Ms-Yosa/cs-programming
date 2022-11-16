@@ -2,16 +2,16 @@
 class Program
 {
 
-     enum dayOfWeek
-     {
-          SUNDAY,
-          MONDAY,
-          TUESDAY,
-          WEDNESDAY,
-          THURSDAY,
-          FRIDAY,
-          SATURDAY
-     }
+     //  enum dayOfWeek
+     //  {
+     //       SUNDAY,
+     //       MONDAY,
+     //       TUESDAY,
+     //       WEDNESDAY,
+     //       THURSDAY,
+     //       FRIDAY,
+     //       SATURDAY
+     //  }
 
      static void Main(string[] args)
      {
@@ -81,6 +81,20 @@ class Program
           Console.WriteLine(numberOfDay);
 
 */
+
+          //Console input
+          //   Console.Write("What is your name?");
+          //   string name = Console.ReadLine();
+          //   Console.Write("What is your last name?");
+          //   string lname = Console.ReadLine();
+          //   Console.WriteLine("Hello {0} {1}", name, lname);
+
+          // parsing = convert string to numeric value
+          Console.WriteLine("Enter a number");
+          int number = int.Parse(Console.ReadLine());
+          Console.WriteLine(number);
+
+
 
 
      }
