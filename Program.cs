@@ -130,7 +130,7 @@ class Program
                     break;
           }
 
-*/
+
 
           // EXERCISE 2 length & width;
 
@@ -147,7 +147,27 @@ class Program
 
           Console.WriteLine("You purchased: {0} sq/ft of carpet with a total price of {1}", totalArea, totalAmount);
 
+*/
 
+          // EXERCISE 3
+
+          const int minute = 60;
+
+          Console.WriteLine("Enter total minutes: ");
+          int input = int.Parse(Console.ReadLine());
+
+          if (input <= minute)
+          {
+               Console.WriteLine(input + " minutes");
+          }
+          else
+          {
+               int hour = input / minute;
+               int minuteLeft = input % minute;
+               Console.WriteLine("{0} hour/s and {1} minute/s", hour, minuteLeft);
+
+
+          }
 
 
 
