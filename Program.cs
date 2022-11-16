@@ -50,7 +50,7 @@ class Program
           //   bool namesEquals = string.Equals(name1, name2);
           //   int namesEquals = string.Compare(name1, name2);
           int namesEquals = name1.CompareTo(name2);
-          // 0 = same | negative = var1 < var2 (vice versa for positive)
+          // 0 = same | 1 = different | negative = var1 < var2 (vice versa for positive)
           System.Console.WriteLine(namesEquals);
           Console.WriteLine(name1.Substring(0, 1));
           // substring = Substring (startIndex, numberOfChartersTaken);
