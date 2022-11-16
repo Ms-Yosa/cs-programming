@@ -1,6 +1,18 @@
 ﻿namespace cs_programming;
 class Program
 {
+
+     enum dayOfWeek
+     {
+          SUNDAY,
+          MONDAY,
+          TUESDAY,
+          WEDNESDAY,
+          THURSDAY,
+          FRIDAY,
+          SATURDAY
+     }
+
      static void Main(string[] args)
      {
           /*
@@ -44,18 +56,31 @@ class Program
           // substring = Substring (startIndex, numberOfChartersTaken);
 
 
-            */
+            
 
           //Conversion / Casting
 
           int x = 5;
-          double y = x;
+          double y = x; //implicit cast
           Console.WriteLine(y);
 
           double myDouble = 5.5;
           int myInt = (int)myDouble; // explicit cast
           Console.WriteLine(myInt);
 
+          
+
+          //Declaring constant
+
+          //   const int myConstInt = 5;
+
+          // enum = group of constant
+
+          dayOfWeek today = dayOfWeek.FRIDAY;
+          int numberOfDay = (int)today;
+          Console.WriteLine(numberOfDay);
+
+*/
 
 
      }
