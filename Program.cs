@@ -25,7 +25,7 @@ class Program
             int c = a++;
             Console.WriteLine("" + a + " " + c);
 
-            */
+            
 
           //String
 
@@ -41,9 +41,21 @@ class Program
           // 0 = same | negative = var1 < var2 (vice versa for positive)
           System.Console.WriteLine(namesEquals);
           Console.WriteLine(name1.Substring(0, 1));
+          // substring = Substring (startIndex, numberOfChartersTaken);
 
 
-          // substring = Substring (startIndex, numberOfChartersTaken)
+            */
+
+          //Conversion / Casting
+
+          int x = 5;
+          double y = x;
+          Console.WriteLine(y);
+
+          double myDouble = 5.5;
+          int myInt = (int)myDouble; // explicit cast
+          Console.WriteLine(myInt);
+
 
 
      }
