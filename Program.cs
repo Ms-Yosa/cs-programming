@@ -14,5 +14,10 @@ class Program
 
           //concat
           Console.WriteLine("The value of myInt is " + myInt + " " + " and the value of myDouble is " + myDouble + " ");
+
+          // operators
+          int result = 2 + 3 * 4;
+          Console.WriteLine(result);
+          ;
      }
 }
